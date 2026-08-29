@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alif Laam Meem Jewellers — Timeless Elegance, Crafted for Generations">
+<title>Alif Laam Meem Jewellers</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  min-height:100vh;
+  background:#050505;
+  color:#f5d36b;
+  font-family:Georgia,"Times New Roman",serif;
+}
+.page{
+  width:min(1120px,100%);
+  margin:auto;
+  padding:24px 18px 40px;
+}
+.hero{
+  text-align:center;
+  padding:28px 10px 12px;
+}
+.logo{
+  width:125px;height:125px;object-fit:contain;
+  margin:0 auto 8px;display:block;
+}
+.brand{
+  font-size:clamp(34px,6vw,66px);
+  letter-spacing:2px;
+  margin:8px 0;
+  font-weight:700;
+}
+.subbrand{
+  font-size:clamp(22px,4vw,38px);
+  letter-spacing:7px;
+  margin:0 0 18px;
+}
+.tagline{
+  color:#eee;
+  font-size:clamp(16px,2.2vw,23px);
+  margin:0 auto 28px;
+}
+.trust{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  max-width:1000px;
+  margin:0 auto 28px;
+}
+.trust div{padding:12px 6px;border-right:1px solid #70551d}
+.trust div:last-child{border-right:0}
+.trust strong{display:block;font-size:18px}
+.trust span{display:block;color:#eee;margin-top:5px}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+  max-width:1000px;
+  margin:auto;
+}
+.card{
+  min-height:105px;
+  border:1px solid #a97819;
+  border-radius:18px;
+  padding:16px 12px;
+  text-decoration:none;
+  color:#f5d36b;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  background:linear-gradient(145deg,#0a0a0a,#111 55%,#070707);
+  box-shadow:0 0 12px rgba(202,157,48,.16), inset 0 0 14px rgba(202,157,48,.04);
+  transition:.2s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:0 0 20px rgba(232,186,67,.32)}
+.icon{font-size:39px;min-width:45px;text-align:center}
+.card h2{font-size:21px;margin:0 0 8px;letter-spacing:.5px}
+.card p{margin:0;color:#eee;font-size:16px}
+.footer{text-align:center;margin-top:38px}
+.footer .thanks{color:#eee;font-style:italic;font-size:20px}
+.footer .name{font-size:26px;letter-spacing:2px;margin:10px 0 18px}
+.footer .stats{color:#eee;font-size:16px}
+@media(max-width:720px){
+ .page{padding:14px 12px 28px}
+ .trust{grid-template-columns:repeat(2,1fr)}
+ .trust div:nth-child(2){border-right:0}
+ .grid{grid-template-columns:1fr;gap:12px}
+ .card{min-height:86px}
+ .brand{letter-spacing:1px}
+ .subbrand{letter-spacing:4px}
+}
+</style>
+</head>
+<body>
+<main class="page">
+  <section class="hero">
+    <img class="logo" src="logo-placeholder.svg" alt="Alif Laam Meem Jewellers logo">
+    <div class="brand">ALIF LAAM MEEM</div>
+    <div class="subbrand">JEWELLERS</div>
+    <p class="tagline">Timeless Elegance, Crafted for Generations</p>
+  </section>
+
+  <section class="trust">
+    <div><strong>◇ PURE GOLD</strong><span>Guaranteed</span></div>
+    <div><strong>♕ CERTIFIED</strong><span>Jewellery</span></div>
+    <div><strong>♢ TRUSTED</strong><span>Quality</span></div>
+    <div><strong>♙ CUSTOMER</strong><span>Satisfaction</span></div>
+  </section>
+
+  <section class="grid">
+    <a class="card" href="https://www.instagram.com/" target="_blank" rel="noopener">
+      <div class="icon">◎</div><div><h2>INSTAGRAM</h2><p>Follow Us</p></div>
+    </a>
+
+    <a class="card" href="https://wa.me/923114817882" target="_blank" rel="noopener">
+      <div class="icon">◔</div><div><h2>WHATSAPP</h2><p>Chat with Us</p></div>
+    </a>
+
+    <a class="card" href="tel:+923114817882">
+      <div class="icon">☎</div><div><h2>CALL US</h2><p>0311 4817882</p></div>
+    </a>
+
+    <a class="card" href="https://maps.app.goo.gl/4U8NGJDmALT" target="_blank" rel="noopener">
+      <div class="icon">●</div><div><h2>OUR LOCATION</h2><p>Find Us</p></div>
+    </a>
+
+    <a class="card" href="https://www.facebook.com/" target="_blank" rel="noopener">
+      <div class="icon">f</div><div><h2>FACEBOOK</h2><p>Like Our Page</p></div>
+    </a>
+
+    <a class="card" href="https://www.tiktok.com/" target="_blank" rel="noopener">
+      <div class="icon">♪</div><div><h2>TIKTOK</h2><p>Watch Us</p></div>
+    </a>
+
+    <a class="card" href="https://www.youtube.com/" target="_blank" rel="noopener">
+      <div class="icon">▶</div><div><h2>YOUTUBE</h2><p>Subscribe</p></div>
+    </a>
+
+    <a class="card" href="#" onclick="alert('Collection link will be added here.');return false;">
+      <div class="icon">◇</div><div><h2>OUR COLLECTION</h2><p>View Jewellery</p></div>
+    </a>
+
+    <a class="card" href="#" onclick="alert('Gold rates link will be added here.');return false;">
+      <div class="icon">↗</div><div><h2>GOLD RATES</h2><p>Today's Rates</p></div>
+    </a>
+
+    <a class="card" href="#" onclick="alert('Online shop link will be added here.');return false;">
+      <div class="icon">▣</div><div><h2>ONLINE SHOP</h2><p>Shop Now</p></div>
+    </a>
+
+    <a class="card" href="mailto:">
+      <div class="icon">✉</div><div><h2>EMAIL US</h2><p>Contact Us</p></div>
+    </a>
+
+    <a class="card" href="#" onclick="alert('Contact form will be added here.');return false;">
+      <div class="icon">♙</div><div><h2>CONTACT FORM</h2><p>Send Message</p></div>
+    </a>
+  </section>
+
+  <footer class="footer">
+    <div class="thanks">Thank you for choosing</div>
+    <div class="name">ALIF LAAM MEEM JEWELLERS</div>
+    <div class="stats">♢ 100% TRUSTED &nbsp; • &nbsp; ☺ 100% SATISFACTION &nbsp; • &nbsp; ◇ 100% VALUE</div>
+  </footer>
+</main>
+</body>
+</html>
